@@ -1,13 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>吳小俊的第一個家</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        body {
+            border: 3px solid lightseagreen;
+            width: 800px;
+            height: 100vh;
+            margin: 10px;
+        }
+        .header{
+            flex-basis: 100%;
+        }
+        .title{
+            flex-basis: 30%;
+            text-align: center;
+        }
+        .description{
+            flex-basis: 70%;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>吳小俊的第一個家</h1>
-    <h2>作品集</h2>
+    <img src="/img/title.png" alt="Welcome to Dreams Wu's PHP Learning Site" style="width:600px;height: 96px;">
+    <h1>Welcome to Dreams Wu's PHP Learning Site</h1>
+    <br>
+    <section>
+        <div class="header">吳小俊的程式練習</div>
+
+        <div class="title">
+            TITLE
+        </div>
+        <div class="description">
+            DESCRIPTION
+        </div>
+
+        <!-- <div class="title"> -->
+        <a class="title" href="99_input.php">乘法表</a>
+        <!-- </div> -->
+        <div class="description">
+            九九乘法表迴圈寫法及變化型
+        </div>
+
+        <div class="title">
+            <a href="leapyear_input.php">判斷平閏年</a>
+        </div>
+        <div class="description">DESCRIPTION</div>
+
+        <div class="title">
+            <a href="loop_input.php">數列</a>
+        </div>
+        <div class="description">
+            DESCRIPTION
+        </div>
+
+        <div class="title">
+            <a href="99x.php">九九乘法表大亂鬥</a>
+        </div>
+        <div class="description">
+            九九乘法表大亂鬥
+        </div>
+
+        <div class="title">
+            <a href="99x.php">畫星星</a>
+        </div>
+        <div class="description">
+            畫星星
+        </div>
+
+        <div class="title">
+            <a href="./php_basic/date/pra01.php">日期/時間練習</a>
+        </div>
+        <div class="description">
+            PHP date()函數及其屬性
+        </div>
+
+        <div class="title">
+            TITLE
+        </div>
+        <div class="description">
+            DESCRIPTION
+        </div>
+
+
+
+    </section>
 </body>
+
 </html>
